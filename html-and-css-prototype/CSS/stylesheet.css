@@ -40,3 +40,100 @@ h1 {
 */
 
 /* Your CSS code goes here */
+.container2 {
+	margin: 2em auto;
+	max-width: 264px;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.message {
+    color: white;
+    background: #424242;
+    border-radius: 3px;
+	text-align: center;
+	padding: 11px;
+}
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #424242;
+    position: relative;
+	left: 85%;
+	margin-bottom: 3px;
+  }
+.progress {
+	border: 2px solid#eaeaea;
+	margin-bottom: -2px;
+}
+.complete {
+    background:#EF5F3C;
+	height: 10px;
+	width: 200px;
+	justify-content: right;
+}
+.main {
+    border: 2px solid #eaeaea;
+	font-size: 14px;
+	color: #777;
+}
+p,.question {
+	text-align: left;
+	padding-left: 15px;
+}
+span {
+	color: #EF5F3C;
+	font-weight: bold;
+}
+.question {
+	color: #20A1D4;
+	margin-bottom: 15px;
+}
+.donation {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 10px;
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;	
+}
+.footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.button1, .button2 {
+    width: 109px;
+    height: 45px;
+	font-size: 15px;
+	border-radius: 3px;
+
+	
+}
+.button1 {
+	text-align: left;
+	padding-left: 5px;
+	border: 2px solid #eaeaea;
+	background-color: white;
+}
+.button2 {
+	background-color: #1CBC2C;
+	color: white;
+	border: none;
+	
+	
+		
+}
+.button3, .button4 {
+    width: 125px;
+    height: 35px;
+	font-size: 12px;
+	border: 2px solid#eaeaea;
+	background-color: #f6f4f4;
+	border-radius: 3px;
+	color: #777;
+}
